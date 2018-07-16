@@ -61,9 +61,9 @@ Unzip "result.tar.gz" to get all the saved test results.
 You can evaluate them using dice coefficient by running
 "python eval_all.py -b 2 -l 0.02 -c MODEL.pth -g"
 
-### Dataset
-Run "bash download_data.sh" to get the dataset. (over 700M)
-
+### Download
+Run "bash download_data.sh" to get the dataset. (around 700M)
+Run "bash download_model.sh" to get the dataset. (around 50M)
 
 ## Warning
 
