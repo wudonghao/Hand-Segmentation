@@ -63,7 +63,8 @@ You can evaluate them using dice coefficient by running
 
 ### Download
 Run "bash download_data.sh" to get the dataset. (around 700M)
-Run "bash download_model.sh" to get the dataset. (around 50M)
+
+Run "bash download_model.sh" to get the model. (around 50M)
 
 ## Warning
 
