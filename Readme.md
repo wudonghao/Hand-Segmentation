@@ -71,7 +71,8 @@ Run "bash download_model.sh" to get the model. (around 50M)
 1.Notice that dirs in this work are absolute path. Please change them for your usage. 
 
 2.In order to process the image, it is split into two squares (a left on and a right one), and each square is passed into the net. The two square masks are then merged again to produce the final image. As a consequence, the height of the image must be strictly superior than half the width. Make sure the width is even too.
-Images for training in this work are only avaliable with a size of 1918 * 1280. Please resize your own data or optimize this project to your convenience.
+
+Images for training in this work are only avaliable with the size of 1918 * 1280. Please resize your own data or optimize this project to your convenience.
 
 3.Batch_size over 4 causes overflow on my machine probably for the above reason.
 
