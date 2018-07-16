@@ -78,7 +78,7 @@ Images for training in this work are only avaliable with the size of 1918 * 1280
 
 4.The ground truth images as input have been binarized with 0 and 1 during preprocessing. 
 
-5.Some codes for image processing are provided in the file named "Image_processing_tools" while without any guarantees for directly using.
+5.Some codes for image processing are provided in the file named "Image_processing_tools" while without any guarantees for directly use.
 
 ## Dependencies
 This package depends on [pydensecrf](https://github.com/lucasb-eyer/pydensecrf), available via `pip install`.
