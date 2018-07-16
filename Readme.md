@@ -76,7 +76,7 @@ Images for training in this work are only avaliable with the size of 1918 * 1280
 
 3.Batch_size over 4 causes overflow on my machine probably for the above reason.
 
-4.The ground truth images as input have been binarized with 0 and 1 in advance. 
+4.The ground truth images as input have been binarized with 0 and 1 during preprocessing. 
 
 5.Some codes for image processing are provided in the file named "Image_processing_tools" while without any guarantees for directly using.
 
