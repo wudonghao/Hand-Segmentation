@@ -25,15 +25,24 @@ To roll back your pytorch, you can run only with
 ## Usage
 ### Test
 
+You can use " python test.py -h " to see more options.
+
+Simply test one image and rename the output by running 
+
 " python test.py -i test1.jpg -o ouput1.jpg "
+
+Test multiple images by running 
 
 " python test.py -i test1.jpg test2.jpg --model MODEL.pth "
 
+See the result in a plot by running
+
 " python test.py -i test1.jpg --viz "
+
 
 ### Training
 
-You can use " python train.py -h " to see more options
+You can use " python train.py -h " to see more options.  (Default value of val_train percentage equals to 0.05)
 
 Simply train by running 
 
@@ -43,13 +52,13 @@ Train with GPU model
 
 "python train.py -g"
 
-Default value of val_train percentage equals to 0.05
+
 
 ### Evaluation
 
-Unzip "result.tar.gz" to get all the saved results file.
+Unzip "result.tar.gz" to get all the saved test results.
 
-Evaluate them using dice coefficient by running
+You can evaluate them using dice coefficient by running
 "python eval_all.py -b 2 -l 0.02 -c MODEL.pth -g"
 
 ### Dataset
@@ -58,7 +67,7 @@ Run "bash download_data.sh" to get the dataset. (over 700M)
 
 ## Warning
 
-1.Notice that dirs in this work are absolute path. Please change it for your usage. 
+1.Notice that dirs in this work are absolute path. Please change them for your usage. 
 
 2.In order to process the image, it is split into two squares (a left on and a right one), and each square is passed into the net. The two square masks are then merged again to produce the final image. As a consequence, the height of the image must be strictly superior than half the width. Make sure the width is even too. Images for training in this work are avaliable with a size of 1918 * 1280. Please resize your own data or optimize this project to your convenience.
 
