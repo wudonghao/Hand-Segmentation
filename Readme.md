@@ -1,6 +1,6 @@
 # Hand-Segmentation
 
-This work was done for a practice purpose.
+This work was finished for a practice purpose.
 https://github.com/wudonghao/Hand-Segmentation.git
 
 <div align='center'>
@@ -25,7 +25,7 @@ To roll back your pytorch, you can run only with
 ## Usage
 ### Test
 
-You can use " python test.py -h " to see more options.
+Try " python test.py -h " to see more options.
 
 Simply test one image and rename the output by running 
 
@@ -42,7 +42,7 @@ See the result in a plot by running
 
 ### Training
 
-You can use " python train.py -h " to see more options.  (Default value of val_train percentage equals to 0.05)
+Try " python train.py -h " to see more options.  (Default value of val_train percentage equals to 0.05)
 
 Simply train by running 
 
@@ -58,7 +58,7 @@ Train with GPU model
 
 Unzip "result.tar.gz" to get all the saved test results.
 
-You can evaluate them using dice coefficient by running
+They can be evaluated by using dice coefficient by running
 "python eval_all.py -b 2 -l 0.02 -c MODEL.pth -g"
 
 ### Download
