@@ -7,7 +7,7 @@ https://github.com/wudonghao/Hand-Segmentation.git
 <img src="sample/sample.png"></img>
 </div>
 
-# Pytorch-UNet
+# U-Net
 
 Customized implementation of the [U-Net](https://arxiv.org/pdf/1505.04597.pdf) in Pytorch. This was used with only one output class.
 The model used for the last submission is stored in the `MODEL.pth` file.
